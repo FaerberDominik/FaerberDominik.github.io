@@ -1,12 +1,10 @@
 
-
-
-
 /* Global Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  color: #333333;
 }
 
 a {
@@ -34,6 +32,19 @@ header {
 .header-info h1 {
   margin: 0;
   font-size: 2.5em;
+  font-weight: bold;
+}
+
+.header-info h2 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.header-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: normal;
 }
 
 .contact-info {
@@ -42,6 +53,16 @@ header {
 
 .contact-info p {
   margin: 5px 0;
+}
+
+.contact-info a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
 
 /* Main Content Styles */
@@ -54,8 +75,13 @@ main {
 /* Summary Section Styles */
 .summary {
   margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
 }
 
+/* Education Section
 /* Education Section Styles */
 .education {
   margin-bottom: 30px;
@@ -68,16 +94,14 @@ main {
 .education-block h3 {
   margin: 0;
   font-size: 1.2em;
+  font-weight: bold;
+}
+
+.education-block p {
+  margin: 5px 0;
 }
 
 /* Work Experience Section Styles */
-.work-experience {
-  margin-bottom: 30px;
-}
-
-.work-block {
-
-  /* Work Experience Section Styles */
 .work-experience {
   margin-bottom: 30px;
 }
@@ -89,6 +113,11 @@ main {
 .work-block h3 {
   margin: 0;
   font-size: 1.2em;
+  font-weight: bold;
+}
+
+.work-block p {
+  margin: 5px 0;
 }
 
 /* Skills Section Styles */
@@ -100,8 +129,25 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.skills li {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+/* Certifications Section Styles */
+.certifications {
+  margin-bottom: 30px;
+}
+
+.cert
 /* Certifications Section Styles */
 .certifications {
   margin-bottom: 30px;
@@ -111,6 +157,10 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.certifications li {
+  margin-bottom: 10px;
 }
 
 /* Awards Section Styles */
@@ -124,6 +174,10 @@ main {
   padding: 0;
 }
 
+.awards li {
+  margin-bottom: 10px;
+}
+
 /* Languages Section Styles */
 .languages {
 }
@@ -132,4 +186,58 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.languages li {
+  margin-bottom: 10px;
+}
+
+/* Customization Styles */
+.header-info {
+  color: #333;
+}
+
+.summary {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.education, .work-experience, .skills, .certifications, .awards, .languages {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+.education h2, .work-experience h2, .skills h2, .certifications h2, .awards h2, .languages h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .header-info {
+    text-align: center;
+  }
+  .header-info h1 {
+    font-size: 2em;
+  }
+  .header-info h2 {
+    font-size: 1.2em;
+  }
+  .header-info h3 {
+    font-size: 1em;
+  }
+  .contact-info {
+    text-align: center;
+  }
+  .contact-info p {
+    margin: 5px 0;
+  }
+  main {
+    padding: 10px;
+  }
 }
