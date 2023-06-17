@@ -1,4 +1,27 @@
 /*------------------------------------------------------------*/
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  .nav a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+/*------------------------------------------------------------*/
 .overview .note {
     color: red;
 }
@@ -97,9 +120,9 @@ table.languages_overview {
 }
 
 
-
-
-
+/*------------------------------------------------------------*/
+/*------------------------------------------------------------*/
+/*------------------------------------------------------------*/
 .column {
     position: relative;
     display: inline-block;
@@ -129,3 +152,5 @@ table.languages_overview {
 .column:hover .overlay_info {
     opacity: 1;
 }
+
+
