@@ -1,14 +1,17 @@
+/*------------------------------------------------------------*/
 .testing {
     color: red;
 }
-.education {
-    color: blue;
+/*------------------------------------------------------------*/
+section {
     font-family: verdana;
 }
+
+/*------------------------------------------------------------*/
 .web_portfolio {
     font-size: 70px;
 }
-
+/*------------------------------------------------------------*/
 .row {
     padding:40px
 }
@@ -33,3 +36,42 @@ table.institutions_overview {
         text-align: left;
     }
 }
+/*------------------------------------------------------------*/
+a.fa-elements{ /*for all fa items*/
+    font-size: 40px;
+    color: skyblue;
+    padding-left: 20px;
+}
+.fa {
+    text-decoration: none;
+}
+/*------------------------------------------------------------*/
+.skill-rating {
+  color: #f0c30f;
+  font-size: 20px;
+}
+table.skills_overview {
+
+    .headers {
+        text-align: left;
+    }
+    .row_names {
+        vertical-align: bottom;
+    }
+    .midcol {
+        padding-left: 40px; 
+    }
+}
+table.languages_overview {
+
+    .headers {
+        text-align: left;
+    }
+    .row_names {
+        vertical-align: bottom;
+    }
+    .midcol {
+        padding-left: 40px; 
+    }
+}
+/*------------------------------------------------------------*/
