@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Web Portfolio</title>
         <link rel="icon" type="image/x-icon" href="../images/Favicon.ico" width=auto heigth=auto>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./style.css">
     </head>
 
@@ -14,8 +15,11 @@
 
 <!-- NAVIGATION  -->
     <nav>
-        <a href="/testing.html">testing</a>
-
+        <a href="/project1.html">testing</a>
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
     </nav>
 
 
@@ -25,7 +29,7 @@
 
         <section class="testing">
             <p>This is a paragraph.</p>
-            <img src="../images/me1.jpg" alt="Personal image" width=300 height=auto>
+            <img src="../images/Hoengg_sculpture.jpg" alt="Personal image" width=300 height=auto>
 
         </section>
 
@@ -74,31 +78,100 @@
 
 <!-- main section: project_portfolio  -->
         <section class="project_portfolio">
-            <h2 style="text-align: center">Research Portfolio/ Project Overview</h2>
+            <h2>Project Portfolio</h2>
         </section>
+<!-- main section: research_experience  -->
+    <section class="research_experience">
+        <h2>Research Experience</h2>
+        <ul>
+            <li>Research Assistant (@TUM)</li>
+            <li>Research Collaboration US</li>
+
+        </ul>
+    </section>
 
 <!-- main section: skills  -->
         <section class="skills">
-            <h2 className="testing" title="testing" style="text-align: center">Skills</h2>
-            <p>EEG, Neural Signal Analysis, Image Processing, CNNs</p>
+            <h2 className="testing" title="testing">Skills</h2>
+
+            <table class="skills_overview">
+                <tr class="headers">
+                    <th>Skill</th>
+                    <th class="midcol">Proficiency
+                </tr>
+                <tr>
+                    <td class="row_names">Neural Signal Processing</td>
+                    <td class="skill-rating midcol">★★★☆☆</td>
+                </tr>
+                <tr>
+                    <td  class="row_names">Image Analysis & Image Processing</td>
+                    <td class="skill-rating midcol">★★★☆☆</td>
+                </tr>
+                <tr>
+                    <td class="row_names">CNNs</td>
+                    <td class="skill-rating midcol">★★★☆☆</td>
+                </tr>
+                <tr>
+                    <td class="row_names">EEG</td>
+                    <td class="skill-rating midcol">★★★☆☆</td>
+                </tr>
+
+            </table>
+
+
+
         </section>
+<!-- main section: neurotechnology_blog  -->
+<section class="neurotechnology_blog">
+    <h2>Blog: Neurotechnology/ Cognitive Augmentation</h2>
+</section>
 
 <!-- main section: languages  -->
         <section class="languages">
-            <h2 style="text-align: center">Languages (Programming, Human)</h2>
-            <li>Python</li><li>MATLAB</li><li>R</li>
-            <li>German</li><li>English</li><li>French</li><li>Italian</li>
+            <h2>Languages (Programming, Human)</h2>
+
+            <table class="languages_overview">
+                <tr class="headers">
+                    <th>Programming Language</th>
+                    <th class="midcol">Proficiency
+                </tr>
+                <tr>
+                    <td class="row_names">Python</td>
+                    <td class="skill-rating midcol">★★★★☆</td>
+                </tr>
+                <tr>
+                    <td  class="row_names">MATLAB</td>
+                    <td class="skill-rating midcol">★★★★☆</td>
+                </tr>
+                <tr>
+                    <td class="row_names">R</td>
+                    <td class="skill-rating midcol">★☆☆☆☆</td>
+                </tr>
+            </table>
+
+            <h4>Human Languages</h4>
+            <p>German (Native) | English (fluent) <br>
+                French (Intermediate) | Italian (intermediate) | Latin (intermediate) <br>
+                Chinese (Beginner)
+            </p>
+
+
+
+
+
         </section>
+
 
 <!-- main section: contact  -->
         <section class="contact">
             <h2>Contact</h2>
-            <a class="fab fa-orcid" href="https://orcid.org/0000-0002-7858-630X?lang=en">OrcID</a>
-            <br>
-            <a class="fab fa-reserachgate" href="https://www.researchgate.net/profile/Dominik-Faerber">ResearchGate</a>
-            <br>
-            <a class="fab fa-linkedin" href="https://www.linkedin.com/in/dominik-faerber-0537071b4/">LinkedIn</a>
+            <a href="mailto:dfaerber@ethz.ch" class='fa fa-envelope fa-elements'></a>
+            <a href="https://github.com/FaerberDominik" class="fa fa-github fa-elements"></a>
+            <a href="https://www.linkedin.com/in/dominik-faerber-0537071b4/" class="fa fa-linkedin fa-elements"></a>
+            <a href="https://orcid.org/0000-0002-7858-630X?lang=en" class="fab fa-orcid fa-elements"></a>  
+            <a href="https://www.researchgate.net/profile/Dominik-Faerber" class='fab fa-researchgate fa-elements'></a>
         </section>
+
 
 
     </body>
